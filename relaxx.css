@@ -1,0 +1,123 @@
+:root {
+  --accentColor: #dd0b78;
+  --textColor: #2c3e50;
+  --borderColor: #eaecef;
+  --codeBgColor: #282c34;
+  --arrowBgColor: #ccc;
+  --badgeTipColor: #42b983;
+  --badgeWarningColor: #e7c000;
+  --badgeErrorColor: #da5961;
+  --bgColor: #f1f1f1;
+  --kbdBgColor: #eee;
+  --blockquoteTextColor: #999;
+  --blockquoteBorderColor: #dfe2e5;
+  --tableBorderColor: #dfe2e5;
+  --tableStripeBgColor: #f6f8fa;
+  --preTextColor: #fff;
+  --highlightedBgColor: rgba(0, 0, 0, 0.66);
+  --languageTextColor: hsla(0, 0%, 100%, 0.4);
+  --lineNumbersColor: hsla(0, 0%, 100%, 0.3);
+  --tipColor: #2c3e50;
+  --tipBgColor: #f3f5f7;
+  --warningColor: #e7c000;
+  --warningBgColor: rgba(255, 229, 100, 0.3);
+  --dangerColor: #c00;
+  --dangerBgColor: #ffe6e6;
+  --miniCodeBgColor: rgba(27, 31, 35, 0.05);
+  --searchBorderColor: #999;
+  --lighten10AccentColor: #f31186;
+  --lighten10TextColor: #3a5169;
+  --lighten20TextColor: #476582;
+  --lighten25TextColor: #4e6e8e;
+  --lighten35TextColor: #5d82a6;
+  --lighten40TextColor: #6a8bad;
+  --darken10AccentColor: #c70a6c;
+  --darken10BgColor: #f2f2f2;
+  --darken10BorderColor: #cfd4db;
+}
+
+#write {
+  max-width: 99%;
+}
+
+#write strong, #typora-source .cm-strong {
+  color: var(--badgeTipColor);
+}
+
+#write em, #typora-source .cm-em {
+  color: var(--badgeTipColor);
+}
+
+#write .md-fences,
+tt {
+  border: 1px solid #e7eaed;
+  background-color: #f8f8f8;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5ex;
+  padding-bottom: 0.5ex;
+}
+
+#write code {
+  background-color: var(--bgColor);
+  padding: 0.25rem 0.25rem;
+  margin: 0;
+  font-size: .85em;
+  background-color: rgba(27, 31, 35, .05);
+  border-radius: 3px;
+  font-family:"Space Mono", Menlo;
+  color: #476582;
+}
+
+#write blockquote, #typora-source pre.cm-atom, #typora-source pre.cm-block-start {
+  border-left: 1ex solid var(--badgeTipColor);
+  padding: 10px 15px;
+  color: #777;
+  background-color: rgba(66, 185, 131, 0.1);
+  font-size: large;
+}
+
+#write a {
+  color: var(--badgeTipColor);
+  font-weight: 600;
+  padding: 0 2px;
+  text-decoration: none;
+}
+
+#write table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    overflow: auto;
+    page-break-inside: auto;
+    text-align: left;
+}
+
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+#typora-source .CodeMirror-lines {
+  max-width: 99%;
+}
