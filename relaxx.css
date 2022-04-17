@@ -121,3 +121,7 @@ table td:last-child {
 #typora-source .CodeMirror-lines {
   max-width: 99%;
 }
+
+#typora-source .cm-header {
+    color: var(--badgeTipColor);
+}
